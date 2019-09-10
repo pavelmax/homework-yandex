@@ -45,8 +45,4 @@ public class WorkerController {
         return workerService.getWorkers(pageable);
     }
 
-    @GetMapping("/index")
-    public String test() {
-        return "test";
-    }
 }
